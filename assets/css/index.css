@@ -1,129 +1,129 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    min-height: 100vh;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    display: flex !important;
+    min-height: 100vh !important;
+    background-color: #f9f9f9 !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
 }
 
 nav {
-    width: 250px;
-    background: #2c3e50;
-    color: white;
-    padding: 30px 20px;
-    position: fixed;
-    height: 100vh;
-    overflow-y: auto;
-    transition: all 0.3s ease;
+    width: 250px !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    padding: 30px 20px !important;
+    position: fixed !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
+    transition: all 0.3s ease !important;
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 20px;
-    border: 5px solid rgba(255, 255, 255, 0.2);
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    margin: 0 auto 20px !important;
+    border: 5px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 .profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 }
 
 nav h1 {
-    font-size: 1.8em;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
+    font-size: 1.8em !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 20px !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+    text-align: center !important;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none !important;
 }
 
 nav li {
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 
 nav a {
-    color: #ecf0f1;
-    text-decoration: none;
-    font-size: 1.1em;
-    display: block;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
+    color: #ecf0f1 !important;
+    text-decoration: none !important;
+    font-size: 1.1em !important;
+    display: block !important;
+    padding: 8px 12px !important;
+    border-radius: 4px !important;
+    transition: all 0.3s ease !important;
 }
 
 nav a:hover,
 nav a.active {
-    background: #3498db;
-    color: white;
+    background: #3498db !important;
+    color: white !important;
 }
 
 #contenido {
-    flex: 1;
-    margin-left: 250px;
-    padding: 30px;
-    min-height: 100vh;
-    background: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex: 1 !important;
+    margin-left: 250px !important;
+    padding: 30px !important;
+    min-height: 100vh !important;
+    background: white !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
 }
 
 @media (max-width: 768px) {
     body {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     nav {
-        width: 100%;
-        height: auto;
-        position: relative;
-        padding: 15px;
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        padding: 15px !important;
     }
 
     #contenido {
-        margin-left: 0;
-        padding: 20px;
+        margin-left: 0 !important;
+        padding: 20px !important;
     }
 
     .menu-toggle {
-        display: block;
-        background: #34495e;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        font-size: 1.2em;
-        cursor: pointer;
+        display: block !important;
+        background: #34495e !important;
+        color: white !important;
+        border: none !important;
+        padding: 10px 15px !important;
+        font-size: 1.2em !important;
+        cursor: pointer !important;
     }
 }
 
 .loading {
-    width: 50px;
-    height: 50px;
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid #3498db;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: 50px auto;
-    display: block;
+    width: 50px !important;
+    height: 50px !important;
+    border: 5px solid #f3f3f3 !important;
+    border-top: 5px solid #3498db !important;
+    border-radius: 50% !important;
+    animation: spin 1s linear infinite !important;
+    margin: 50px auto !important;
+    display: block !important;
 }
 
 @keyframes spin {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0deg) !important;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(360deg) !important;
     }
 }
