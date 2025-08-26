@@ -47,6 +47,30 @@ nav h1 {
     text-align: center;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #3498db;
+    color: white;
+    transform: translateY(-3px);
+}
+
 nav ul {
     list-style: none;
 }
