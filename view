@@ -1,0 +1,34 @@
+<section class="home-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hola, soy <span>Sergio Rosas</span></h1>
+            <h2>Desarrollador Full Stack</h2>
+            <p>Creo soluciones digitales innovadoras con tecnologías modernas y diseño centrado en el usuario.</p>
+            <div class="hero-buttons">
+                <a href="#" data-page="portafolio" class="btn-primary" id="btnPortafolio">Ver mi trabajo</a>
+                <a href="#l" data-page="contacto" class="btn-secondary" id="btnContacto">Contáctame</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-preview">
+        <h3>Servicios que ofrezco</h3>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h4>Desarrollo Web</h4>
+                <p>Aplicaciones a medida con React, Angular o Vue.js</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Aplicaciones Móviles</h4>
+                <p>Apps multiplataforma con Flutter y React Native</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-server"></i>
+                <h4>Backend & APIs</h4>
+                <p>Sistemas robustos con Node.js, Python o PHP</p>
+            </div>
+        </div>
+    </div>
+</section>
