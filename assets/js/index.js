@@ -29,7 +29,6 @@ window.document.addEventListener('DOMContentLoaded', () => {
     function loadPage(nombrePagina) {
         const contenido = window.document.getElementById('contenido');
         contenido.innerHTML = '<div class="loading"></div>';
-        console.log("`view/${nombrePagina}.html`: " + `view/${nombrePagina}.html`);
         setTimeout(() => {
             fetch(`view/${nombrePagina}.html`)
                 .then(response => {
