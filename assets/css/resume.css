@@ -170,24 +170,52 @@
     background: #f0f0f0;
     border-radius: 4px;
     position: relative;
+    overflow: hidden;
 }
 
-.skill-level:before {
-    content: attr(data-level);
+.skill-level::after {
+    content: '';
     position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     border-radius: 4px;
     background: #3498db;
+    width: 0;
     animation: fillSkill 1.5s ease-out forwards;
+}
+
+.skill-level[data-level="80%"]::after {
+    width: 80%;
+}
+
+.skill-level[data-level="75%"]::after {
+    width: 75%;
+}
+
+.skill-level[data-level="70%"]::after {
+    width: 70%;
+}
+
+.skill-level[data-level="65%"]::after {
+    width: 65%;
+}
+
+.skill-level[data-level="60%"]::after {
+    width: 60%;
+}
+
+.skill-level[data-level="55%"]::after {
+    width: 55%;
+}
+
+.skill-level[data-level="50%"]::after {
+    width: 50%;
 }
 
 @keyframes fillSkill {
     from {
         width: 0;
-    }
-
-    to {
-        width: attr(data-level);
     }
 }
 
